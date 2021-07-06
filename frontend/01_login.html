@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <!--  style 파일 분리  -->
+    <!--    <link rel="stylesheet" type="text/css" href="mystyle.css">-->
+
+    <style>
+        * {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+        .my-title {
+            background-color: green;
+            width: 300px;
+            height: 200px;
+
+            color: white;
+            text-align: center;
+
+            /* background image */
+            background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+            background-size: cover;
+            background-position: center;
+
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+
+        .wrap {
+            width: 300px;
+            margin: auto;
+
+            padding-top: 10px;
+        }
+
+        .my-btn {
+            /* 상 우 하 좌 */
+            /*margin: 20px 0px 0px 100px;*/
+            width: 100px;
+            margin: auto;
+            /* box 속성 주기 */
+            display: block;
+        }
+
+        .red-font {
+            color: red;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="my-title">
+            <h1>Login Page</h1>
+            <h5>Please enter your id and password.</h5>
+        </div>
+
+        <p>ID: <input type="text"></p>
+        <p>PW: <input type="text"></p>
+        <button class="my-btn red-font">Login</button>
+    </div>
+</body>
+</html>
